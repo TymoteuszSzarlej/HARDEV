@@ -1,0 +1,55 @@
+{%extends 'base.html.jinja'%}
+{%block content%}
+<table>
+    <tr>
+        <td>
+            <div class="container">
+                
+                <h3>
+                    Strony internetowe
+                </h3>
+                <p>
+                    Tworzymy profesjonalne i estetyczne strony internetowe. Klient ma realny wpływ na układ, zawartość i styl strony. Wierzymy, że schludna i atrakcyjna wizytówka w internecie to klucz do pozyskiwania nowych klientów.
+                </p>
+                <img src="{{url_for('static', filename='webmaster.jpg')}}" class="image">
+                <h4>
+                    Już od 1300 złotych
+                </h4>
+           
+        </div>
+        </td>
+        <td>
+        
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="container">
+                <h3>Założyciel</h3>
+                <table>
+                    <tr>
+                        <td>
+                            
+                            <img src="{{url_for('static', filename='TymoteuszSzarlej.jpg')}}" class="profile">
+                            
+                        <td>
+                        <td>
+                            <h4>Tymoteusz Szarlej</h4>
+                            <p><b>Informatyk</b>, student Informatyki Ekonomicznej</p>
+                            <span>Moją pasją jest tworzenie stron i aplikacji webowych. Pasjonuje mnie również grafika komputerowa i ekonomia.</span>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+        </td>
+        <td>
+            
+        </td>
+    </tr>
+</table>
+<div class="container">
+    <h3>Darmowa wycena</h3>
+        <b>Telefon: </b>(+48) 518 997 219<br>
+        <b>E-mail: </b>timszarlej@gmail.com
+    </div>
+{%endblock%}

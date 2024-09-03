@@ -1,0 +1,51 @@
+{%extends 'base.html.jinja'%}
+{%block content%}
+<h2>Oferta</h2>
+            <div class="container">
+                
+                    <h3>
+                        Strony internetowe
+                    </h3>
+                    <p>
+                        Tworzymy profesjonalne i estetyczne strony internetowe. Klient ma realny wpływ na układ, zawartość i styl strony. Wierzymy, że schludna i atrakcyjna wizytówka w internecie to klucz do pozyskiwania nowych klientów.
+                    </p>
+                    <img src="{{url_for('static', filename='webmaster.jpg')}}" class="image">
+                    <h4>
+                        Już od 1300 złotych
+                    </h4>
+               
+            </div>
+
+            <div class="container">
+
+                    <h3>
+                        Projekty banerów i ulotek
+                    </h3>
+                    <p>
+                        Tworzymy przyciągające uwagę projekty graficzne banerów, dostosowanych do działalności Klienta, oraz estetycznych ulotek.
+                    </p>
+                    Możliwość zlecenia wydruku firmie drukarskiej na prośbę Klienta.
+                    <img src="{{url_for('static', filename='artist.jpg')}}" class="image">
+                    <h4>
+                        Już od 500 złotych
+                    </h4>
+               
+            </div>
+
+            <div class="container">
+               
+                    <h3>
+                        Projekty logo i wizytówek
+                    </h3>
+                    <p>
+                        Projektujemy przyciągające uwagę logo i wizytówki, pomagające Klientom w budowaniu silnej marki.
+                    </p>
+                    <img src="{{url_for('static', filename='designer.jpg')}}" class="image">
+                    <h4>
+                        Już od 200 złotych
+                    </h4>
+             
+            </div>
+
+
+{%endblock%}

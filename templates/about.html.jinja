@@ -1,0 +1,28 @@
+{%extends 'base.html.jinja'%}
+{%block content%}
+<h2>O nas</h2>
+<div class="container">
+<h3>O firmie</h3>
+<span>
+    Firma została założona w 2024 roku przez pasjonata informatyki w odpowiedzi na brak przystępnych cenowo rozwiązań z zakresu reklamy internetowej na Orawie i Podhalu.
+    Specjalizujemy się w tworzeniu stron i aplikacji webowych, oprogramowania oraz grafiki komputerowej.
+</span>
+</div>
+<div class="container">
+<h3>Założyciel</h3>
+<table>
+    <tr>
+        <td>
+            
+            <img src="{{url_for('static', filename='TymoteuszSzarlej.jpg')}}" class="profile">
+            
+        <td>
+        <td>
+            <h4>Tymoteusz Szarlej</h4>
+            <p><b>Informatyk</b>, student Informatyki Ekonomicznej</p>
+            <span>Moją pasją jest tworzenie stron i aplikacji webowych. Pasjonuje mnie również grafika komputerowa i ekonomia.</span>
+        </td>
+    </tr>
+</table>
+</div>
+{%endblock%}
